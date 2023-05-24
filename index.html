@@ -6,21 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/aaa47c56ef.js" crossorigin="anonymous"></script>
-    <style>
-        h1{
-            display: inline;
-            
-        }
-        i{
-            color: red;
-            font-size: 30px;
-        }
-    </style>
 </head>
 <body>
-  <a href="#">
-    <i class='fas'>&#xf3c5;</i>
-    <h1>Logo</h1>
-  </a>
+  <header>
+    <div id="logo">
+      <a href="#"><i class='fas'>&#xf3c5;</i>Logo</a>
+    </div>
+    <div id="lupa">
+      <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+  </header>
+  <main>
+    <section id="topo">
+      <div>
+        <ul>
+          <li><a href="#">Flight</a></li>
+          <li><a href="#">Hotel</a></li>
+          <li><a href="#">Rental</a></li>
+        </ul>
+        <p>Travel the world with us</p>
+        <section>
+          <div id="escolha-local">
+            <label for="from">From</label>
+            <input type="text" name="from" id="from" placeholder="Departing from">
+            <label for="to">To</label>
+            <input type="text" name="to" id="to" placeholder="Arriving at">
+          </div>
+          <input type="submit" value="Search and find dates" id="confirma-local">
+        </section>
+      </div>
+    </section>
+    <section class="container">
+      <article class="conteudo">
+        <h1>Good Offers Rgth Now</h1>
+        <p>up to <strong>50%</strong> discount.</p>
+        <div id="img1">
+          <img src="imagens/cinqueterre.jpg" alt="Imagem de Cinque Terre">
+          <p>Cinque terre</p>
+        </div>
+        <div id="imgs">
+          <img src="imagens/newyork.jpg" alt="New York City">
+          <p>New York</p>
+          <img src="imagens/sanfran.jpg" alt="San Francisco City">
+          <p>San Francisco</p>
+          <img src="imagens/pisa.jpg" alt="Pisa City">
+          <p>Pisa</p>
+          <img src="imagens/paris.jpg" alt="Paris City">
+          <p>Paris</p>
+        </div>
+      </article>
+    </section>
+    <section class="container">
+      <article class="conteudo">
+        <h1>Explore Nature</h1>
+        <p>Travel with us and see nature at its finest.</p>
+        <section class="img-paisagem">
+          <div>
+            <img src="imagens/ocean.jpg" alt="Image Ocean">
+            <h2>West Coast Norway</h2>
+            <p>Roundtrip from $79</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <input type="button" value="Buy Tickets" class="buy-ticket">
+          </div>
+        </section>
+        <section class="img-paisagem">
+          <div>
+            <img src="imagens/mountains.jpg" alt="Image Mountains">
+            <h2>West Coast Norway</h2>
+            <p>Roundtrip from $79</p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <input type="button" value="Buy Tickets" class="buy-ticket">
+          </div>
+        </section>
+      </article>
+    </section>
+  </main>
+  
 </body>
 </html>
