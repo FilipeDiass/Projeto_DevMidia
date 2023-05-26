@@ -149,15 +149,60 @@ svg{
 
 /*Conteiners*/
 .container{
-    
-    width: 75%;
+    width: 80%;
     margin: auto;
 }
 /*Conteiners*/
 
-/**/
+/*section 2*/
 #conteudo{
     width: 100%;
-    height: 700px;
-    background-color: rgba(255, 255, 2, 0.984);
+    padding: 15px;
 }
+#conteudo > h1{
+    margin: 15px 0px;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+#conteudo > p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+#agrupamento{
+    width: 100%;
+    display: flex;
+}
+#img1{
+    width: 50%;
+    height: 450px;
+    position: relative;
+}
+#img1 > img{
+    width: 100%;
+}
+#imgs{
+    width: 50%;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#imgs > div{
+    position: relative;
+    width: 50%;
+    padding-left: 10px;
+}
+#imgs > div > img{
+    width: 100%;
+    height: 100%;
+}
+.padding{
+    padding-top: 10px;
+}
+.nome-local{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 15px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.67);
+}
+/*Section 2*/
