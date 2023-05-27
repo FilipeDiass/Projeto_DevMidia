@@ -3,6 +3,91 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
 
 :root{
-    -featured_font: 'Raleway', sans-serif, arial;
+    --featured_font: 'Raleway', sans-serif, arial;
+    --padrao_font: arial, helvetica, sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(181, 181, 181);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > a{
+    color: orangered;
+    text-decoration: none;
+    font-family: var(--featured_font);
+    font-weight: bold;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+#logo{
+    font-size: 1.2em;
+    padding: 0px 10px 0px 20px;
+}
+#lupa{
+    font-size: 1.3em;
+    color: gray;
+    padding: 20px;
+}
+/*Header*/
+
+/*Section Local*/
+#londres{
+    width: 100%;
+}
+#choose-location{
+    width: 100%;
+    background-color: white;
+}
+#choose-location > nav{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+#choose-location > nav > ul{
+    width: 90%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+}
+#choose-location > nav > ul > li{
+    width: 100%;
+    height: 40px;
+}
+.options{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--featured_font);
+    text-decoration: none;
+    color: white;
+}
+.options:hover{
+    background-color: rgb(255, 67, 34);
+}
+#plane{
+    transform: rotate(315deg);
+}
+.options > svg{
+    fill: white;
+    width: 15px;
+    margin-right: 8px;
+}
