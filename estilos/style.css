@@ -133,6 +133,7 @@ header > a{
     margin: auto;
 }
 #form-top > form > input{
+    max-width: 192px;
     width: 60%;
     height: 35px;
     background-color: gray;

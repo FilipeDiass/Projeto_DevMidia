@@ -21,7 +21,7 @@
         max-width: 500px;
     }
     #form-top > form > input{
-        max-width: 280px;
+        max-width: 253px;
         font-size: 1em;
     }
     /*Section Londres*/
@@ -115,7 +115,10 @@
         height: 40px;
         font-size: 0.9em;
     }
+    
+    /*footer*/
     footer{
+        margin-top: 20px;
         width: 400px;
     }
     footer > p{
@@ -124,4 +127,5 @@
     #network > a{
         font-size: 30px;
     }
+    /*footer*/
 }
