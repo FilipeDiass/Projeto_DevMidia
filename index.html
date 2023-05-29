@@ -7,6 +7,7 @@
     <title>Airplane</title>
     <script src="https://kit.fontawesome.com/aaa47c56ef.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/phone-l.css">
 </head>
 <body>
     <header>
@@ -28,11 +29,11 @@
                     <div>
                         <div class="from-to">
                             <label for="from">From</label>
-                            <input type="text" name="from" id="from">
+                            <input type="text" name="from" id="from" placeholder="Departing from">
                         </div>
                         <div class="from-to">
                             <label for="to">To</label>
-                            <input type="text" name="from" id="from">
+                            <input type="text" name="to" id="to" placeholder="Arriving at">
                         </div>
                     </div>
                     <input type="button" value="Search and find dates">
@@ -41,7 +42,95 @@
         </div>    
     </section>
     <main>
+        <section id="imgs">
+            <h1>Good Offers Rigth Now</h1>
+            <p>Up to <strong>50%</strong> discount.</p>
+            <div id="cinque">
+                <img src="imagens/cinqueterre.jpg" alt="Cinque Terre City" title="Cinque Terre City">
+                <p>Cinque Terre</p>
+            </div>
+            <section id="four-img">
+                <div class="group-img">
+                    <img src="imagens/newyork.jpg" alt="New York City" title="New York City">
+                    <p>New York</p>
+                </div>
+                <div class="group-img">
+                    <img src="imagens/sanfran.jpg" alt="San Fracisco City" title="San Fracisco City">
+                    <p>San Francisco</p>
+                </div>
+                <div class="group-img">
+                    <img src="imagens/pisa.jpg" alt="Pisa City" title="Pisa City">
+                    <p>Pisa</p>
+                </div>
+                <div class="group-img">
+                    <img src="imagens/paris.jpg" alt="Paris City" title="Paris City">
+                    <p>Paris</p>
+                </div>
+            </section>
+        </section>
         
+        <section id="explore">
+            <h1>Explore Nature</h1>
+            <p>Travel with us and see nature at its finest.</p>
+            <section id="landscape">
+                <div class="nature">
+                    <img src="imagens/ocean.jpg" alt="Ocean" title="Ocean">
+                    <h2>West Coast, Norway</h2>
+                    <p class="color-p">Roundtrip from $79</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <input type="button" value="Buy Tickets" name="ticket" id="ticket">
+                </div>
+                <div class="nature">
+                    <img src="imagens/mountains.jpg" alt="Mountains" title="Mountains">
+                    <h2>Mountains, Austria</h2>
+                    <p class="color-p">One-way from $39</p>
+                    <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                    <input type="button" value="Buy Tickets" name="ticket" id="ticket2">
+                </div>
+            </section>
+        </section>
+
     </main>
+
+    <Section id="offers" class="margin">
+        <div>
+            <h2>Get the best offers first!</h2>
+            <p>join our newsletter.</p>
+            <label for="best-offers">E-mail</label>
+            <input type="email" name="best-offers" id="best-offers" placeholder="Your Email address">
+            <input type="button" value="Subscribe" id="subscribe">
+        </div>
+    </Section>
+
+    <section id="contact" class="margin">
+        <div>
+            <h3>Contact</h3>
+            <p>Let us book your next trip!</p>
+            <ul>
+                <li><i class="fa-solid fa-location-dot"></i> Chicago, US</li>
+                <li><i class="fa-solid fa-phone"></i>Phone: +00 151515</li>
+                <li><i class="fa-solid fa-envelope"></i>Email: mail@mail.com</li>
+            </ul>
+            <form action="" method="post">
+                <input type="text" name="name" id="name" placeholder="Name" class="contact-me">
+                <input type="email" name="email" id="email" placeholder="Email" class="contact-me">
+                <input type="text" name="msg" id="msg" placeholder="Message" class="contact-me">
+                <input type="button" value="SEND MESSAGE" name="send" id="send">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Find Us On</p>
+        <section id="network">
+            <a href="https://pt-br.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.snapchat.com/pt-BR" target="_blank"><i class="fa-brands fa-square-snapchat" id="snap"></i></a>
+            <a href="https://br.pinterest.com" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://br.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </section>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/defaulT.asp" target="_blank">w3.css</a></p>
+    </footer>
 </body>
 </html>

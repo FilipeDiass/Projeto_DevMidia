@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 420px) and (max-width: 767px){
+    /*Header*/
+    header > a{
+        font-size: 1.4em;
+    }
+    /*Header*/
+
+    /*Section Londres*/
+    .options{
+        font-size: 1.2em;
+    }
+    .options > svg{
+        width: 18px;
+    }
+    #form-top > form > p{
+        font-size: 2em;
+    }
+    .from-to > input, .from-to > label{
+        max-width: 500px;
+    }
+    #form-top > form > input{
+        max-width: 280px;
+        font-size: 1em;
+    }
+    /*Section Londres*/
+
+    /*main*/
+    main{
+        width: 400px;
+    }
+    /*main*/
+
+    /*Section IMGS*/
+    main > #imgs > h1{
+        font-size: 2em;
+    }
+    #cinque > img{
+        width: 400px;
+    }
+    #cinque > p{
+        font-size: 1.2em;
+    }
+    .group-img > img{
+        width: 400px;
+    }
+    .group-img > p{
+        font-size: 1.2em;
+    }
+    /*Section IMGS*/
+
+    /*Section Explore*/
+    #explore > h1{
+        font-size: 2em;
+    }
+    #explore > p{
+        font-size: 1.2em;
+    }
+    .nature > img{
+        width: 400px;
+    }
+    .nature > h2{
+        font-size: 1.5em;
+    }
+    .nature p{
+        font-size: 1.1em;
+    }
+    .nature > input{
+        height: 40px;
+        font-size: 1em;
+    }
+    /*Section Explore*/
+
+    .margin{
+        width: 400px;
+    }
+
+    /*Section Offers*/
+    #offers > div > h2{
+        font-size: 2em;
+    }
+    #offers > div > p{
+        font-size: 1.2em;
+    }
+    #offers > div > label{
+        font-size: 1.3em;
+    }
+    #best-offers{
+        height: 50px;
+        font-size: 1.1em;
+    }
+    #subscribe{
+        height: 40px;
+        font-size: 1em;
+    }
+    /*Section Offers*/
+
+    /*Section Contact*/
+    #contact > div > h3{
+        font-size: 2em;
+    }
+    #contact > div > p{
+        font-size: 1.2em;
+    }
+    #contact > div > ul > li{
+        font-size: 1.2em;
+        padding-bottom: 20px;
+    }
+    .contact-me{
+        height: 45px;
+        font-size: 1.1em;
+    }
+    #send{
+        height: 40px;
+        font-size: 0.9em;
+    }
+    footer{
+        width: 400px;
+    }
+    footer > p{
+        font-size: 1.2em;
+    }
+    #network > a{
+        font-size: 30px;
+    }
+}
