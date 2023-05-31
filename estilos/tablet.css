@@ -59,7 +59,6 @@
     /*main*/
     main{
         width: 700px;
-        background-color: rgba(221, 255, 0, 0.338);
     }
     /*main*/
 
@@ -71,5 +70,135 @@
     main > #imgs > p{
         font-size: 1.2em;
     }
- 
+   #img-flex{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+   }
+   #cinque{
+        width: 50%;
+        padding: 5px 0px;
+        display: flex;
+        margin: 0;
+   }
+   #cinque > img{
+        width: 100%;
+   }
+   #cinque > p{
+        font-size: 1.2em;
+   }
+   #four-img{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+   }
+   .group-img{
+        width: 50%;
+        display: flex;
+        margin: 0;
+        padding: 5px 0px 5px 10px;
+   }
+   .group-img > img{
+        width: 100%;
+   }
+   .group-img > p{
+        font-size: 1.2em;
+        left: 15px;
+   }
+   /*Section IMGS*/
+
+   /*Section Explore*/
+   #explore > h1{
+        font-size: 2.4em;
+        padding: 35px 0px 10px 0px;
+   }
+   #explore > p{
+        font-size: 1.2em;
+        padding-bottom: 15px;
+   }
+   #landscape{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+   }
+   .nature > img{
+        width: 100%;
+}
+   .nature > h2{
+        font-size: 1.7em;
+}
+   .nature p{
+        font-size: 1.2em;
+}
+   .nature > input{
+        height: 45px;
+        font-size: 1.1em;
+}
+   #ocean{
+        margin-right: 10px;
+}
+/*Section Explore*/
+
+/*Width Section*/
+    .margin{
+        width: 700px;
+    }
+/*Width Section*/
+
+/*Section Offers*/
+    #offers > div > h2{
+        font-size: 2.4em;
+}
+    #offers > div > p{
+        font-size: 1.3em;
+}
+    #offers > div > label{
+        font-size: 1.4em;
+}
+    #best-offers{
+        height: 60px;
+        font-size: 1.2em;
+}
+    #subscribe{
+        width: 120px;
+        height: 50px;
+        font-size: 1.2em;
+}
+/*Section Offers*/
+
+/*Section Contact*/
+    #contact > div > h3{
+        font-size: 2.5em;
+}
+    #contact > div > p{
+        font-size: 1.4em;
+}
+    #contact > div > ul > li{
+        font-size: 1.4em;
+        padding-bottom: 20px;
+}
+    .contact-me{
+        height: 60px;
+        font-size: 1.3em;
+        border: solid 1px gray;
+}
+    #send{
+        width: 150px;
+        height: 55px;
+        font-size: 1em;
+}
+/*Section Contact*/
+
+/*footer*/
+    footer{
+        margin-top: 20px;
+        width: 700px;
+}
+    footer > p{
+        font-size: 1.4em;
+}
+    #network > a{
+        font-size: 35px;
+}
+/*footer*/
 }   
