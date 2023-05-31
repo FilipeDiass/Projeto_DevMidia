@@ -1,5 +1,204 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 950px){
+    /*Header*/
+    header{
+        justify-content: space-between;
+    }
+    header > a{
+        font-size: 1.5em;
+    }
+     /*Header*/
 
+      /*Section Londres*/
+      #londres{
+        background: url(../imagens/london.jpg) center no-repeat;
+        background-size: cover;
+        height: 460px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #choose-location{
+        max-width: 950px;
+        height: 230px;
+        width: 75%;
+     }
+    .options{
+        font-size: 1.1em;
+    }
+    #form-top > form{
+        align-items: start;
+        padding: 0px 5px;
+    }
+    #form-top > form > p{
+        font-size: 1.6em;
+        font-weight: 500;
+        padding: 20px 0px 10px 5px;
+    }
+    #form-top > form > div{
+        display: flex;
+    }
+    .from-to{
+        padding: 0px 5px;
+    }
+    .from-to > label{
+        width: 100%;
+        font-size: 1em;
+    }
+    .from-to > input{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    #form-top > form > input{
+        margin: 10px 0px 25px 5px;
+        font-size: 1em;
+    }
+    /*Section Londres*/
+
+     /*main*/
+     main{
+        width: 900px;
+    }
+    /*main*/
+
+     /*Section IMGS*/
+     main > #imgs > h1{
+        font-size: 1.8em;
+        padding-top: 40px;
+    }
+    main > #imgs > p{
+        font-size: 1em;
+    }
+   #img-flex{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+   }
+   #cinque{
+        width: 50%;
+        padding: 5px 0px;
+        display: flex;
+        margin: 0;
+   }
+   #cinque > img{
+        width: 100%;
+   }
+   #cinque > p{
+        font-size: 1em;
+   }
+   #four-img{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+   }
+   .group-img{
+        width: 50%;
+        display: flex;
+        margin: 0;
+        padding: 5px 0px 5px 10px;
+   }
+   .group-img > img{
+        width: 100%;
+   }
+   .group-img > p{
+        font-size: 1em;
+        left: 15px;
+   }
+   /*Section IMGS*/
+
+   /*Section Explore*/
+   #explore > h1{
+    font-size: 1.8em;
+    padding: 35px 0px 10px 0px;
 }
+#explore > p{
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+#landscape{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nature > img{
+    width: 100%;
+}
+.nature > h2{
+    font-size: 1.5em;
+}
+.nature p{
+    font-size: 1em;
+}
+.nature > input{
+    height: 40px;
+    font-size: 1em;
+}
+#ocean{
+    margin-right: 10px;
+}
+/*Section Explore*/
+
+/*Width Section*/
+.margin{
+    width: 900px;
+}
+/*Width Section*/
+
+/*Section Offers*/
+#offers > div > h2{
+    font-size: 1.8em;
+}
+#offers > div > p{
+    font-size: 1em;
+}
+#offers > div > label{
+    font-size: 1.2em;
+}
+#best-offers{
+    height: 40px;
+    font-size: 0.9em;
+}
+#subscribe{
+    width: 100px;
+    height: 35px;
+    font-size: 1em;
+}
+/*Section Offers*/
+
+/*Section Contact*/
+#contact > div > h3{
+    font-size: 1.8em;
+}
+#contact > div > p{
+    font-size: 1em;
+}
+#contact > div > ul > li{
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+.contact-me{
+    height: 45px;
+    font-size: 0.9em;
+    border: solid 1px gray;
+}
+#send{
+    width: 150px;
+    height: 40px;
+    font-size: 0.9em;
+}
+/*Section Contact*/
+
+/*footer*/
+footer{
+    margin-top: 20px;
+    width: 900px;
+}
+footer > p{
+    font-size: 1em;
+}
+#network > a{
+    font-size: 25px;
+}
+/*footer*/
+}   
